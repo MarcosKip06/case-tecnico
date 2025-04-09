@@ -38,6 +38,22 @@ Este projeto é uma aplicação Spring Boot que realiza integração com a API d
    ```bash
    git clone https://github.com/MarcosKip06/case-tecnico.git
 
+2. Configure o arquivo application.properties com suas credenciais do HubSpot:
+   - hubspot.client.id=SEU_CLIENT_ID
+   - hubspot.client.secret=SEU_CLIENT_SECRET
+   - hubspot.redirect.uri=http://localhost:8090/oauth/callback
+   - hubspot.api.url=https://api.hubapi.com
+  
+3. Execute o projeto
+
+4. Acesse o endpoint de autorização:
+   - http://localhost:8090/oauth/authorize
+  
+📬 Endpoints:
+   - GET	/oauth/authorize	Gera a URL de autorização
+   - GET	/oauth/callback	Recebe o código de autorização
+   - POST	/contacts	Cria um novo contato no CRM
+
 
 📄 Documentação Técnica
 ✔️ Decisões Tomadas

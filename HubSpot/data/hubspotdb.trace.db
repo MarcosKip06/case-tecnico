@@ -1,0 +1,9 @@
+2025-04-09 10:32:29.454425-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN" not found (this database is empty); SQL statement:
+insert into token (access_token,expires_in,refresh_token,id) values (?,?,?,default) [42104-232]
+2025-04-09 10:35:16.733014-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TOKEN" not found (this database is empty); SQL statement:
+insert into token (access_token,expires_in,refresh_token,id) values (?,?,?,default) [42104-232]
+2025-04-09 11:18:42.611062-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]selecxt * from token"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+selecxt * from token [42001-232]
